@@ -1,0 +1,42 @@
+.products-container{
+    width: 100%;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding: 10px;
+    position: relative;
+    top: 14%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0;
+    /* border: 2px solid #f05396 */
+    border: none;
+}
+
+.card-description{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.prod > img{
+    width: 180px;
+    height: 180px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.mk{
+    display: flex;
+    flex-direction: column;
+}
